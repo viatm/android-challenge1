@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 counter++;
                 text.setText("Counter: "+counter);
-                if(counter>9999) {
+                if(counter>2) {
                     startActivity(new Intent(MainActivity.this, ChallengeActivity.class));
                 }
             }
